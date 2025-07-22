@@ -8,5 +8,16 @@ def calc():
     if ins == "min":
         z = x - y
         print(f'min: {z}')
+    if ins == "sqrt":
+        z = x*y
+        print(f'sqrt: {z}')
+    if ins == "del":
+        if y != 0:
+            z = x/y
+            print(f'del: {z}')
+        else:
+            print('def 0 - bad operation')
+
+
 
 calc()
